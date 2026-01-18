@@ -48,6 +48,14 @@ We use **flutter_bloc** to separate business logic from UI. This ensures:
 - **injectable**: Generates dependency injection code, reducing boilerplate.
 - **get_it**: Service locator for accessing dependencies anywhere.
 
+### 🧩 Plugins Used
+- **State Management**: `flutter_bloc`
+- **Database**: `isar`, `isar_flutter_libs`
+- **Notifications**: `flutter_local_notifications`, `flutter_timezone`, `timezone`
+- **Dependency Injection**: `get_it`, `injectable`
+- **UI/Utilities**: `google_fonts`, `equatable`, `intl`, `path_provider`, `shared_preferences`
+- **Dev/Testing**: `build_runner`, `isar_generator`, `injectable_generator`, `mocktail`
+
 ## 🚀 Setup & Running
 
 1. **Clone the repository**
